@@ -1,0 +1,173 @@
+/* Font Family a usar font-family: 'Playfair Display', serif /*
+
+/* Reset CSS */
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*Header*/
+
+header {
+
+    background-color: darkblue;
+
+}
+
+.imgHeader {
+
+    height: 10%;
+    width: 10%;
+
+}
+
+/* Header menú*/
+
+nav ul {
+
+    list-style-type: none;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: whitesmoke;
+      
+}
+
+nav ul li {
+
+    position: relative;
+    display: inline-block;
+    padding: 8px
+   
+}
+
+nav ul li a:hover {
+
+    background-color: rgb(98, 73, 243);
+    transition: all .3s;
+   
+ } 
+
+
+
+/* Body Main*/
+
+
+h1 {
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+
+#iframeIndex {
+
+    text-align: center;
+    background-image: url(https://image.winudf.com/v2/image/Y29tLmFwcGZvcmV2ZXIucmVhbC5tYWRyaWQud2FsbHBhcGVycy5oZF9zY3JlZW5fMF8xNTI4NTk2MzA4XzA2Mg/screen-0.jpg?fakeurl=1&type=.jpg);
+    background-size: 170px 170px;
+    margin: auto;
+    border: groove;
+    border-color: darkblue;
+
+}
+
+h2 {
+
+    text-align: center;
+    font-family:'Playfair Display', serif;
+    font-size: 40px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+p {
+    background-color: grey;
+    text-align: center;
+    color: black;
+    font-size: large;
+    padding: 45px;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-color: darkblue;
+    
+}
+
+.logoLink {
+
+    text-align: center;
+    background-color: black;
+    border-top: double darkblue;
+    border-right: double grey;
+    border-bottom: double darkblue;
+    border-left: double grey;
+    border-width: 30px;
+}
+
+
+/* Footer */
+
+footer {
+
+    background-color: rgb(93, 93, 192);
+    border: outset 10px darkblue;
+    padding: 20px;
+}
+
+h6 {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+
+}
+
+
+.imgFooter {
+
+    height: 10%;
+    width: 10%;
+
+}
+
+.imgPie {
+
+    text-align: center;
+
+}
+
+
+footer ol li a {
+
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: larger;
+    padding: 20px;
+}
+
+footer ol li {
+
+    list-style-type: none;
+    padding: 20px;
+    display: inline-block;
+    font-weight: bolder;
+
+}
+
+
